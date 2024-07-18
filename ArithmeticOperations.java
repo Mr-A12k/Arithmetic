@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ArithmeticOperations {
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -29,7 +29,7 @@ public class ArithmeticOperations {
         return a + b;
     }
 
-    // Method to perform subtraction
+    // Method to perform subtractio
     public static double subtract(double a, double b) {
         return a - b;
     }
@@ -38,7 +38,6 @@ public class ArithmeticOperations {
     public static double multiply(double a, double b) {
         return a * b;
     }
-
 
     public static double divide(double a, double b) {
         if (b == 0) {
